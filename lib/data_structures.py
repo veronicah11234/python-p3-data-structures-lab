@@ -43,6 +43,7 @@ def create_spicy_food(spicy_foods, new_spicy_food):
 
 
 print("Names:", get_names(spicy_foods))
+print("Spiciest Foods:", get_spiciest_foods(spicy_foods))
 print("\nPrint Spicy Foods:")
 print_spicy_foods(spicy_foods)
 print("\nSpicy Food by Cuisine (American):", get_spicy_food_by_cuisine(spicy_foods, "American"))
